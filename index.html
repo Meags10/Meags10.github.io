@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        
+		<title>Harborside Common Grounds</title>
+        <meta charset="UTF-8" />
+        <link href="../CommonGrounds/CG.css" rel="stylesheet" />
+        <link href="http://fonts.googleapis.com/css?family=Alice|Playfair+Display:900" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">       
+	</head>
+       
+	<body>
+        <div class="wrapper">
+        <header>
+        <div id="logo">
+            <a href="../CommonGrounds/index.html"><img src="logo.png" alt="Common Grounds" height = "210" width = "320" id="imglogo"/></a>
+        </div>
+        </header>
+        <div class="container">
+        
+        <nav class="horizontal">
+            <ul>
+               <li class="leftside" id="home"><a href="../CommonGrounds/index.html">Home</a></li>
+               <li class="leftside" id="menu"><a href="../CommonGrounds/CGMenu.htm">Menu</a></li>
+               <li class="rightside" id="gallery"><a href="../CommonGrounds/CGGallery.htm">Gallery</a></li>
+               <li class="rightside"><a href="../CommonGrounds/CGAboutUs.htm">About Us</a></li>
+            </ul>
+         </nav>
+		    
+		<section id="main">
+            <div id="titlebox">
+		  <h2 class="headings" id="title"  >Harborside Common Grounds</h2>
+            </div>
+             
+		      <article class="info" id="intro">
+			     <p> Harborside Common Grounds is a popular, locally owned coffee shop in downtown Kenosha, Wisconsin that boasts of a quaint, but energetic atmosphere. We offer a variety of traditional espresso drinks, as well as a few of our own creations that we've stumbled upon over the years. In addition to espresso drinks, we also brew specialty drip coffees, such as Butt Naked, Sugar Daddy, Drunken Uncle, and Vanilla Almond. For the none coffee drinkers and our younger customers, we serve Big Train&reg; Chai, hot tea from The Republic of Tea&reg;, and Ghirardelli&reg; hot chocolate.  In addition to our delicious café drinks we also serve up made-to-order sandwiches, soup, and a wide variety of bakery items. Check out our full menu here!
+                  </p> 
+              </article>
+           
+            
+            <div class="info" id="events">
+            <h3 class="headings">Events</h3> 
+                <ul id="eventslist">
+                    <li><Strong>Two Wheel Tuesday:</Strong>
+            
+                        <p> Are you a motorcycle owner or a wanna-be-motorcycle owner? Drop by Harborside Common Grounds every Tuesday evening for great coffee and conversation with other motorcycle enthusiasts! It's a great way to meet new people and exchange ideas and information about a hobby you love! 
+                        </p>
+                    </li>
+                
+                    <li><Strong>Scooter Wednesday</Strong>
+                    
+                        <p>
+                            Do you have a two-wheeled friend who isn't quite classified as a motorcycle, but you still want to show him off? Stop by Harborside Common Grounds every Wednesday evening for a delicious cup of coffee and great conversation with other scooter owners and enthusiasts!
+                        </p>
+                    </li>
+                </ul>
+                
+            </div>
+             <div class="slideshow">
+                    <img class="myslides" id="sunset" src="../CommonGrounds/CGsunset.jpg" alt="sunset">
+                    <img class="myslides" src="../CommonGrounds/buidlingfront.jpg" alt="front">
+                    <img class="myslides" src="../CommonGrounds/buildinglakeview.jpg" alt="lake">
+                    <img class="myslides" src="../CommonGrounds/inside1.jpg" alt="inside">
+                  <script >
+                 var myIndex = 0;
+                 carousel();
+                 function carousel() {
+                                        var i;
+                                        var x = document.getElementsByClassName("myslides");
+                                        for (i = 0; i < x.length; i++) {
+                                           x[i].style.display = "none";  
+                                            }
+                                            myIndex++;
+                                            if (myIndex > x.length) {myIndex = 1}    
+                                            x[myIndex-1].style.display = "block";  
+                                            setTimeout(carousel, 3000); // Change image every 2 seconds
+                                        }
+            </script>
+            
+            </div>
+            
+             <aside class="info" id="otherlinks">
+                <ul>
+                    <li><a href="../CommonGrounds/FAQS.htm">FAQ's</a></li>
+                    <li><a href="../CommonGrounds/CoffeeShopEtt.htm">Coffe Shop Etiquette</a></li>
+                    <li><a href="../CommonGrounds/SurveyForm.htm">Customer Servey</a></li>           
+                </ul>
+            </aside>
+                        
+        </section>
+            
+		<footer>
+            <address>
+                5159 6th Ave, Kenosha, WI 53140 (262) 652-5111
+            </address>
+		</footer>
+            </div>
+        </div>
+	</body>
+        
+</html>

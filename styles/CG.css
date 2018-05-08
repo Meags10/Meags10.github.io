@@ -1,0 +1,678 @@
+
+
+/* Displaying elements as block */
+
+
+.wrapper{
+    max-width: 1100px;
+    min-width: 1100px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+   
+}
+
+header, section, article, nav{
+    display: block;
+}
+
+/* Default Page Settings */
+body *{
+    padding: 0px;
+    margin: auto;
+    max-width: 1100px;
+    
+   
+   
+}
+/* *********HomePage Styles*************  */
+
+.container{
+    width: 1100px;
+    margin: auto/*0px 400px 0px 400px*/ ;
+    background:  rgba(68,84,106,0.9);
+    background-attachment:fixed;
+    height: 1100px;
+    border-radius: 10px;
+    position: absolute;
+    
+    
+}
+
+/* Background */
+body {
+    background:url(woodgrain.jpg);
+    
+    background-attachment: fixed;
+    font-family: 'Alice', serif;
+}
+
+header{
+    
+   
+    
+    width: 100%;
+    height: 200px;
+    position:ab;
+    
+   
+    
+}
+
+header #logo{
+    z-index: ;
+    position: absolute;
+    top: 57px; 
+    width: 100%;
+    
+}
+header #imglogo{
+    left: 35%;
+    position: relative;
+    z-index: 2;
+   
+}
+/* Heading Styles */
+.headings#title{
+    font-family: 'Arvo', serif;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-size: 40px;
+    display:inline;
+    text-shadow: 1px 1px 1px #ccc;
+    position: relative;
+    top: 60px;
+    color: white;
+    
+    
+    
+    
+}
+div#titlebox{
+    width: 70%;
+    margin: 20px 20px auto 40px;
+    
+}
+
+section#main h2{
+    width: 40%;
+    margin-top: 30px;
+    color: white;
+}
+/* Nav Styles */
+.horizontal {
+    width: 100%;
+    background: url(texturetastic_gray.png); /*rgb(143,148,145)*/;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+    position: absolute;
+    
+    
+    
+}
+
+.horizontal li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    text-align: center;
+    height: 50px;
+    line-height: 30px;
+    margin: auto 75px 5px auto;
+    width: 90px;
+    font-size: 14px;
+    color: black;
+    padding-top: 15px;
+    border-radius: ;
+    /*border-left: solid 0.5px rgb(68,84,106);
+    border-right: solid 0.5px rgb(68, 84, 106);*/ 
+    
+}
+
+li#menu {
+    margin-right: 140px
+}
+
+li#gallery{
+    margin-left: 200px;
+}
+li#home{
+    margin-left: 120px
+}
+
+nav li a{
+    text-decoration: none;
+    font-family: 'Playfair Display', serif; 
+    color:rgb(68,84,106) ;
+    padding: 15px;
+}
+
+nav li:hover{
+    opacity: 0.4;
+}
+
+/* Info Style */
+
+article#intro{
+    background: url(texturetastic_gray.png); /*rgba(143,148,145,.8)*/;
+    width: 45%;
+    padding: 40px;
+    padding-left: 20px;
+    text-indent: 30px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 20px;
+  
+    
+    
+}
+
+div#events{
+    background: url(texturetastic_gray.png);/*rgba(143,148,145,0.8);*/
+    width: 30%;
+    padding: 40px;
+    margin-left: 57%;
+    margin-top: 0px;
+    border-radius: 10px;
+    position:absolute;
+    top: 230px;   
+
+}
+
+div.info #eventslist{
+    position: relative;
+}
+
+aside#otherlinks{
+    border: solid 1px black;
+    width: 30%;
+    height: 95px;
+    background:url(texturetastic_gray.png); /*rgba(143,148,145,0.8);*/
+    margin-top: 25%;
+    position: absolute;
+    top: 470px;
+    left: 58%;
+    margin-left: 40px;
+    margin-right: 10%;
+    border-radius: 10px;
+    float: right;
+
+        
+}
+
+aside#otherlinks li{
+    
+    float:none;
+    list-style: circle;
+    padding-top: 10px;
+    margin-left: 20%;
+    
+    
+}
+
+aside.info a{
+    color: black;
+   
+    font-family: 'Alice', serif;
+}
+
+aside.info a:hover{
+    opacity: 0.4;
+}
+
+/* Slideshow style */
+#sunset img{
+    display: block;
+    float: left;
+    width: 43%;
+    height: 350px;
+    margin: 65px;
+    border-radius: 5px;
+        
+}
+div.slideshow{
+    margin: 60px;
+    background: url(texturetastic_gray.png);
+    height:390px;
+    width: 43%;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    
+}
+
+img.myslides{
+    
+    width: 90%;
+    height: 350px;
+    padding: 20px;
+    margin: 10px auto10px auto;
+    border-radius: 5px;
+
+    max-height: 350px;
+   
+}
+
+
+
+/*Footer Style */
+footer{
+    text-align: center;
+    height: 40px;
+    opacity: 0.4;
+    position: relative;
+    top: 80px;
+}
+footer address{
+    border-top: 1px solid white;
+    color: white;
+    opacity: 0.6;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px; 
+}
+
+/* *********MenuPage Styles*************  */
+
+/* Nav Style */
+
+nav.vertical{
+    clear: left;
+    float: left;
+    width: 200px;
+    position: relative;
+    margin: 70px 0px 0px 10px;
+    height: 500px;
+    background: url(texturetastic_gray.png);
+
+    border-radius: 5px;
+        
+}
+
+nav.vertical li {
+    list-style: none;
+    margin: 30px 0px 5px 0px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif; 
+    color:rgb(68,84,106) ;
+    text-align: center;
+    display: block;
+    height: 50px;
+    
+    
+   
+    
+}
+
+
+nav.vertical  a{
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+/* Display Section Style */
+
+div.hotdrinks{
+    margin: 70px 90px 0px 250px;
+    background: url(texturetastic_gray.png);
+    border-radius: 5px;
+    height: 850px;
+    padding: 15px;
+    
+}
+div.hotdrinks#colddrinks{
+    margin: 70px 90px 0px 250px;
+    background: url(texturetastic_gray.png);
+    border-radius: 5px;
+    height: 720px;
+    padding: 15px;
+    
+}
+div.hotdrinks#bakeryitems
+{
+    height: 450px;
+    padding-left: 15px;
+}
+div.hotdrinks #menuheading{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif; 
+    color:rgb(68,84,106) ;
+}
+
+div.hotdrinks h3{
+    font-family: 'Playfair Display', serif; 
+    color:rgb(68,84,106) ;
+}
+
+ul#hotdrinks li {
+    list-style: none;
+    margin: 10px 5px 10px 5px;
+}
+
+p#drinksintro{
+    margin-top: 10px;
+    text-align: center;
+}
+div.container#drinkmenu{
+    height: 1125px;
+}
+div.container#colddrinkmenu{
+    height: 1000px;
+}
+div.container#bakerymenu{
+    height:  700px;
+}
+
+
+footer#menufooter{
+    position: relative;
+    top: 5%;
+}
+
+/*Bakery Menu Styles */
+ul#hotdrinks a{
+    text-decoration: none;
+    font-family: 'Playfair Display', serif; 
+    color:rgb(68,84,106) ;
+      
+}
+/*Breakfast Menu Styles */
+ul#additionalitems
+{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+div.hotdrinks#breakfast{
+    height: 550px;
+    padding: 15px;
+}
+
+div.container#breakfastmenu{
+    height: 800px;
+}
+/*Sandwich Menu Styles */
+
+div.container#sandwichmenu
+{
+    height: 1400px;
+}
+
+div.hotdrinks#sandwichitems{
+    height: 1100px;
+}
+ul.sandwichoptions li{
+    margin-left: 60px;
+    list-style: circle;
+     
+}
+
+/*Alternative Menu Style */
+div.hotdrinks#altitems{
+    height: 500px;
+}
+
+div.container#altmenu
+{
+    height: 700px;
+}
+
+/* Gallery Style */
+
+div#gallery1{
+    position: relative;
+    top: 60px;
+    padding: 20px;
+    margin: 10px;
+    background: url(texturetastic_gray.png);
+    border-radius: 5px;
+    
+}
+
+div#gallery1 img{
+    margin:20px;
+    border-radius: 5px;
+    backface-visibility: visible;
+    
+}
+
+div#gallerycontainer{
+    height: 750px;
+}
+
+/*About us Styles */
+
+ /*History Style */
+article#history{
+    width: 45%;
+    height: 400px;
+    overflow: scroll;
+    background: url(texturetastic_gray.png); /*rgba(143,148,145,.8)*/
+    padding: 40px;
+    padding-left: 20px;
+    text-indent: 30px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+/* Table Styles */
+table.hours
+{
+    font-size: 20px;
+    
+}
+
+table.hours td{
+    padding: 0px 5px 0px 5px;
+}
+
+
+table.hours caption{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Arvo', serif;
+    text-shadow: 1px 1px 1px #ccc;
+    margin-bottom: 10px;
+}
+div.table
+{
+    float: right;
+    margin-right: 100px;
+    bottom: 470px;
+    position: relative;
+    height: 260px;
+    width: 300px;
+    padding: 30px;
+    background: url(texturetastic_gray.png);
+    border-radius: 5px;
+        
+}
+
+article#links{
+    border: solid 1px black;
+    width: 30%;
+    height: 95px;
+    background:url(texturetastic_gray.png); /*rgba(143,148,145,0.8);*/
+    margin-top: 25%;
+    position: absolute;
+    top: 300px;
+    left: 56%;
+    margin-left: 40px;
+    margin-right: 10%;
+    border-radius: 10px;
+    float: right;
+
+    
+    
+}
+
+article#links li{
+    
+    float:none;
+    list-style: circle;
+    padding-top: 10px;
+    margin-left: 20%;
+    font-weight: 700;
+    
+}
+
+article#links a{
+    color: black;
+}
+
+div.container#aboutus{
+    height: 770px;
+}
+
+
+
+/* Survey Style */
+fieldset{
+    background: url(texturetastic_gray.png);
+    float: left;
+    width: 46%;
+    margin: 10px 0px 10px 2.5%;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+section#surveymain{
+    position: relative;
+    top: 70px;
+}
+
+section#surveymain p#required{
+    width: 80%;
+    color: white;
+}
+
+legend{
+     background: url(texturetastic_gray.png);
+    border-radius: 5px;
+    padding: 3px 0px;
+    text-indent: 5px;
+    width: 100%;
+}
+
+label{
+    clear: left;
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 4% 7px 5px;
+    width: 40%;
+    
+}
+
+input{
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0px;
+    width: 50%;
+}
+
+input#state{width: 50px;}
+
+select{
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0px;
+    
+}
+
+fieldset.optionGroup {border-width: 0px;}
+
+fieldset.optionGroup label{
+        display: inline; 
+		float: none; 
+		margin: 0px 3px 0px 0px;
+		width: 30px;
+}
+
+fieldset.optionGroup input {
+		display: inline; 
+		float: none; 
+		margin: 0px 20px 0px 0px;
+		width: 20px;
+}
+
+textarea{
+	display: block;
+	font-size: 0.9em;
+	float: left;
+	height: 150px;
+	margin: 10px 0px;
+	width: 50%;
+}
+
+#ordersPerMonth{width: 70px;}
+
+input[type="range"]{width: 150px; }
+
+
+form p{text-align: center;}
+
+input[type="submit"], input[type="reset"]{
+    display: inline;
+    float: none;
+    height: 40px;
+    width: 200px;
+}
+
+label.sliderLabel{
+    clear: none;
+    font-size: 0.7em;
+    margin: 10px 0px;
+    text-align: center;
+    width: 10px;
+}
+
+input:focus:valid{
+    background: rgb(220, 255, 220) url(go.png) bottom right no-repeat;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+input:focus:invalid{
+    background: rgb(255, 232, 232) url(stop.png) bottom right no-repeat;
+}
+
+.container#survey{
+    height: 800px;
+}
+
+/*FAQ Styles */
+
+section#faqmain{
+    position: relative;
+    top: 50px;
+    padding: 30px;
+    margin: 20px;
+    background: url(texturetastic_gray.png);
+    border-radius: 5px;
+}
+
+#faqmain ol{
+   width: 90%;
+       
+  
+}
+
+.container#et{
+    height: 830px;
+}

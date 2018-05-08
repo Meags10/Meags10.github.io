@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        
+		<title>Harborside Common Grounds</title>
+        <meta charset="UTF-8" />
+        <link href="../CommonGrounds/CG.css" rel="stylesheet" />
+        <link href="http://fonts.googleapis.com/css?family=Alice|Playfair+Display:900" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+        
+	</head>
+       
+  
+	<body>
+        <div class="wrapper">
+        <header>
+        <div id="logo">
+            <a href="../CommonGrounds/index.html"><img src="logo.png" alt="Common Grounds" height = "210" width = "320" id="imglogo"/></a>
+        </div>
+        </header>
+        <div class="container" id="survey">
+        
+
+        <nav class="horizontal">
+           <ul>
+               <li class="leftside" id="home"><a href="../CommonGrounds/index.html">Home</a></li>
+               <li class="leftside" id="menu"><a href="../CommonGrounds/CGMenu.htm">Menu</a></li>
+               <li class="rightside" id="gallery"><a href="../CommonGrounds/CGGallery.htm">Gallery</a></li>
+               <li class="rightside"><a href="../CommonGrounds/CGAboutUs.htm">About Us</a></li>
+            </ul>
+         </nav>
+		
+        <div id="titlebox">
+		  <h2 class="headings" id="title">Customer Survey</h2>
+            </div>
+		<section id="surveymain">
+            
+            <p id="required">Required values are marked by an asterisk (*)</p>
+	       <form id="survey1" name="survey" 
+	       action="http://www.commongroundskenosha.com/cgi-bin/survey" 
+	       method="post">
+		  <fieldset class="con" id="custInfo">
+			<legend>Customer Information</legend>
+			<label for="custname">Name *</label>
+			<input name="custname" id="custname" 
+			placeholder="first and last name"  
+			required="required">
+			
+			<label for="street">Street address</label>
+			<input name="street" id="street">
+			
+			<label for="city">City</label>
+			<input name="city" id="city" value="Kenosha">
+			
+			<label for="state">State</label>
+			<input name="state" id="state" value="WI">
+			
+			<label for="zip">Postal Code</label>
+			<input name="zip" id="zip" 
+			 placeholder="nnnnn-(nnnn)" pattern="^\d{5}(\-\d{4})?$">
+			
+			<label for="phone">Phone number</label>
+			<input name="phone" id="phone" type="tel"
+			 placeholder="nnn nnn-nnnn" 
+             pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+			 
+			<label for="email">Email *</label>
+			<input name="email" id="email" type="email"
+			 required="required">
+			
+			<label for="ordersPerMonth">How many times do you visit us?</label>
+			<input name="ordersPerMonth" id="ordersPerMonth"
+			 type="number" value="1" min="0" max="10" step="1">
+			 
+		</fieldset>
+		
+		<fieldset class="con" id="experience">
+			<legend>Share Your Experience</legend>
+			<label for="visitdate">Date of visit</label>
+			<input name="visitdate" id="visitdate" type="date">
+			
+			<label for="receipt">Receipt number *</label>
+			<input name="receipt" id="receipt" 
+			 required="required" placeholder="re-nnnnnn" pattern="^re\-\d{6}$">
+			 
+			<label for="ordertype">Order type</label>
+			<select name="ordertype" id="ordertype">
+				<option value="type1">Coffee</option>
+				<option value="type2">Sandwich</option>
+				<option value="type3" selected="selected">Meal and Coffee</option>
+				<option value="type4">To Go</option>
+			</select> 
+			
+			<label>Was your service friendly?</label>
+			<fieldset class="optionGroup">
+				<label for="sYes">Yes</label>
+				<input type="radio" name="serviceFriendly" 
+				 id="sYes" value="yes"/>
+				
+				<label for="sNo">No</label>
+				<input type="radio" name="serviceFriendly" 
+				 id="sNo" value="no"/>
+			</fieldset>
+			<label>Was your order correct?</label>
+			<fieldset class="optionGroup">
+				<label for="oYes">Yes</label>
+				<input type="radio" name="orderCorrect" 
+				 id="oYes" value="yes"/>
+				
+				<label for="oNo">No</label>
+				<input type="radio" name="orderCorrect" 
+				 id="oNo" value="no"/>
+			</fieldset>
+			<label>Was your food hot?</label>
+			<fieldset class="optionGroup">
+				<label for="hotYes">Yes</label>
+				<input type="radio" name="foodHot" 
+				 id="hotYes" value="yes"/>
+				
+				<label for="hotNo">No</label>
+				<input type="radio" name="foodHot" 
+				 id="hotNo" value="no"/>
+			</fieldset>
+			
+			<label>Rate the overall service<br>
+			(0 = poor; 10 = great)
+			</label>
+			<label class="sliderLabel">0</label>
+			<input name="service"  id="service" type="range"
+			 value="5" min="0" max="10" step="1">
+			<label class="sliderLabel">10</label>
+			
+			<label>Rate the food quality<br>
+			(0 = poor; 10 = great)
+			</label>
+			<label class="sliderLabel">0</label>
+			<input name="quality"  id="quality" type="range"
+			 value="5" min="0" max="10" step="1">
+			<label class="sliderLabel">10</label>
+			
+			<label for="comments">Tell us more about your experience</label>
+			<textarea name="comments" id="comments"></textarea> 
+		</fieldset>
+		
+		
+		
+		<p>
+			<input type="submit" value="Submit My Survey">
+			<input type="reset" value="Cancel">
+		</p>
+	  </form>
+             
+		     
+           
+            
+             
+            
+ 	       
+            
+        </section>
+            
+		
+        
+		<footer>
+            <address>
+            5159 6th Ave, Kenosha, WI 53140 (262) 652-5111
+            
+            
+            </address>
+		</footer>
+            </div>
+        </div>
+	</body>
+        
+</html>
