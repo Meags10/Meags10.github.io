@@ -41,7 +41,7 @@ body *{
 
 /* Background */
 body {
-    background:url(../assets/woodgrain.jpg);
+    background:url('../assets/woodgrain.jpg');
     
     background-attachment: fixed;
     font-family: 'Alice', serif;
