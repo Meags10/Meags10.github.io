@@ -159,7 +159,7 @@ nav li:hover{
 /* Info Style */
 
 article#intro{
-    background: url(../assets/texturetastic_gray.png); /*rgba(143,148,145,.8)*/;
+    background: url(/texturetastic_gray.png); /*rgba(143,148,145,.8)*/;
     width: 45%;
     padding: 40px;
     padding-left: 20px;
